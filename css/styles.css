@@ -95,7 +95,7 @@ header{
 }
 
 .home-img img{
-  width: 400px;
+  width: 100%;
 }
 
 .home-text h1{
@@ -150,6 +150,10 @@ header{
 .about-text p {
   margin: 0.8rem 0 1.8rem;
   font-size: 1.5rem;
+}
+
+.about-img img {
+  width: 100%;
 }
 
 /* Menu */
@@ -216,4 +220,28 @@ header{
 
 .box .fas:hover{
   color: #7B9E89;
+}
+
+/* services */
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.sv-box{
+  text-align: center;
+}
+
+.sv-box img{
+  width: 100px;
+}
+
+.sv-box h3 {
+  margin: 4px 0 10px;
+}
+
+.sv-box {
+  
 }
