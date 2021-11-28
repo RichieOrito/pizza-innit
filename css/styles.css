@@ -199,3 +199,21 @@ header{
   object-fit: contain;
   object-position: center;
 }
+
+.box h2 {
+  font-size: 1.2rem;
+}
+
+.box span {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.box .fas{
+  font-size: 20px;
+  color: var(--main-color);
+}
+
+.box .fas:hover{
+  color: #7B9E89;
+}
