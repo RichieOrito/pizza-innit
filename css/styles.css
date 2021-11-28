@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Road Rage', cursive;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+  list-style: none;
+  text-decoration: none;
+}
+
+*::selection {
+  background-color: var(--bg-color);
+  color: var(--txt-color);
+}
+
+:root {
+  --bg-color:#000000;
+  --main-color:#F0A202;
+  --txt-color:#ffffff;
+
+  --big-font: 4rem;
+  --h2-font: 2.24rem;
+  --p-font: 0.9rem;
+}
+
+section{
+  padding: 50px 10%;
+}
+
+body{
+  color:var(--txt-color);
+  background-color: var(--bg-color);
+}
