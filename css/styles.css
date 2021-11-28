@@ -55,7 +55,7 @@ header{
 }
 
 .logo span {
- 
+
 }
 
 .logo img{
@@ -307,14 +307,14 @@ header{
   color: #000000;
   /* text-align: center; */
   line-height: 1.9rem;
-  /* display: grid;
-  grid-template-columns: repeat(2,1fr); */
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
 }
 
-.moda-title{
-  color: #000000;
-}
+ /*gotten inspiration from http://codepen.io/TeshaR/pen/cdugG?editors=110 */
+ 
 
+/* Toppings and crusts */
 .toppings .btn{
   /* float: left; */
   position: relative;
@@ -414,56 +414,115 @@ header{
   box-shadow: none;
 }
 
-.btn-sauce {
+.btn-glutten-free {
   background: #fff4aa;
   box-shadow: 0 6px #998500;
   color: #555;
 }
 
-.btn-sauce:hover {
+.btn-glutten-free:hover {
   background: #fff088;
   box-shadow: 0 5px #776800;
   color: #555;
 }
 
-.btn-sauce.active {
+.btn-glutten-free.active {
   top: 2px;
   box-shadow: 0 2px #998500;
 }
 
-.btn-sauce.active:hover {
+.btn-glutten-free.active:hover {
   box-shadow: 0 2px #776800;
 }
 
-.btn-sauce:active,
-.btn-sauce.active:active {
+.btn-glutten-free:active,
+.btn-glutten.active-free:active {
   top: 5px;
   box-shadow: none;
 }
 
-.btn-crust {
-  background: #e0d5cf;
-  box-shadow: 0 6px #957160;
-  color: #555;
+.btn-crispy {
+  background: #996515;
+  box-shadow: 0 6px #996515;
+  color: #fff;
 }
 
-.btn-crust:hover {
+.btn-crispy:hover {
   background: #d3c3bb;
   box-shadow: 0 5px #816253;
   color: #555;
 }
 
-.btn-crust.active {
+.btn-crispy.active {
   top: 2px;
   box-shadow: 0 2px #957160;
 }
 
-.btn-crust.active:hover {
+.btn-crispy.active:hover {
   box-shadow: 0 2px #816253;
 }
 
-.btn-crust:active,
-.btn-crust.active:active {
+.btn-crispy:active,
+.btn-crispy.active:active {
   top: 5px;
   box-shadow: none;
+}
+
+.btn-stuffed {
+  background: #F18805;
+  box-shadow: 0 6px #957160;
+  color: #fff;
+}
+
+.btn-stuffed:hover {
+  background: #d3c3bb;
+  box-shadow: 0 5px #816253;
+  color: #555;
+}
+
+.btn-stuffed.active {
+  top: 2px;
+  box-shadow: 0 2px #957160;
+}
+
+.btn-stuffed.active:hover {
+  box-shadow: 0 2px #816253;
+}
+
+.btn-stuffed:active,
+.btn-stuffed.active:active {
+  top: 5px;
+  box-shadow: none;
+}
+
+/* Price */
+
+.price {
+  right: 0;
+}
+
+.price h2 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.price h2:after {
+  content: ':';
+}
+
+.price h1{
+  color: red;
+}
+
+.price li{
+  margin: 5px 20px 0;
+  color:#6f6f6f;
+  font-size: 1.3rem;
+}
+
+.price strong{
+  font-size: 1.5rem;
+  display: block;
+  margin-top: 1rem;
 }
