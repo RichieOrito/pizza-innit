@@ -5,7 +5,6 @@ $(".btn-pepperonni").click(function(e){
   calcPrice();
 });
 
-
 $(".btn-mushrooms").click(function(e){
   $(this).toggleClass('active');
   $('.mushroom').toggle();
@@ -22,21 +21,21 @@ $(".btn-green-peppers").click(function(e){
 
 $(".btn-glutten-free").click(function(e){
   $(this).toggleClass('active');
-  $('.glutten-free').toggle();
+  $('.glutten').toggle();
   $("li:contains('glutten free')").toggle();
   calcPrice();
 });
 
 $(".btn-crispy").click(function(e){
   $(this).toggleClass('active');
-  $('.crispy').toggle();
+  $('.crisp').toggle();
   $("li:contains('crispy')").toggle();
   calcPrice();
 });
 
 $(".btn-stuffed").click(function(e){
   $(this).toggleClass('active');
-  $('.stuffed').toggle();
+  $('.stuff').toggle();
   $("li:contains('stuffed')").toggle();
   calcPrice();
 });
@@ -44,29 +43,27 @@ $(".btn-stuffed").click(function(e){
 function calcPrice(){
   var totalPrice=600;
 
-  if ($('.btn-pepperoni').hasClass('active')) {
-    totalPrice +=200;
+  if ($('.btn-pepperonni').hasClass('active')) {
+    totalPrice += 200;
   }
   if ($('.btn-mushrooms').hasClass('active')) {
-    totalPrice+=200;
+    totalPrice += 200;
   }
   if ($('.btn-green-peppers').hasClass('active')) {
-    totalPrice += 200;    
+    totalPrice += 200;
   }
   if ($('.btn-glutten-free').hasClass('active')) {
-    totalPrice += 100;    
+    totalPrice += 100;
   }
   if ($('.btn-crispy').hasClass('active')) {
-    totalPrice += 100;    
+    totalPrice += 100;
   }
   if ($('.btn-stuffed').hasClass('active')) {
-    totalPrice += 100;    
+    totalPrice += 100;
   }
 
   $('#totalPrice').html(totalPrice);
-
-};
-  
+}
   
   
 
