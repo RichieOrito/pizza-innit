@@ -296,3 +296,13 @@ header{
   padding: 20px;
   text-align: center;
 }
+
+.button {
+  padding: 5px 8px;
+  border-radius: 0 0.5rem 0 0.5rem;
+  background-color: #000000;
+}
+
+.modal-body{
+  color: #000000;
+}
