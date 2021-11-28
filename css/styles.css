@@ -37,6 +37,10 @@ body{
   background-color: var(--bg-color);
 }
 
+a{
+  text-decoration: none;
+}
+
 /* Header section */
 header{
   position: fixed;
@@ -52,10 +56,6 @@ header{
   font-size: 2.8rem;
   font-weight: 500;
   color: var(--txt-color);
-}
-
-.logo span {
-
 }
 
 .logo img{
@@ -443,7 +443,7 @@ header{
 
 .btn-crispy {
   background: #996515;
-  box-shadow: 0 6px #996515;
+  box-shadow: 0 6px #331f01;
   color: #fff;
 }
 
@@ -519,6 +519,11 @@ header{
   margin: 5px 20px 0;
   color:#6f6f6f;
   font-size: 1.3rem;
+}
+
+.price li:before {
+  content: '+ ';
+  color: #e2311a;
 }
 
 .price strong{
