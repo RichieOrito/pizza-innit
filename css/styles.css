@@ -152,3 +152,50 @@ header{
   font-size: 1.5rem;
 }
 
+/* Menu */
+
+.heading {
+  text-align: center;
+}
+
+.heading span {
+  color: var(--main-color);
+}
+
+.heading h1{
+  font-size: var(--h1-font);
+}
+
+.heading h2{
+  font-size: var(--h2-font);
+}
+
+.menu-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.box {
+  /* position: relative; */
+  margin-top: 2rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px 4px #ccc;
+}
+
+.box-img {
+  width: 100%;
+}
+
+.box-img img {
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
