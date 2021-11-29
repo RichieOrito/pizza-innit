@@ -497,6 +497,33 @@ header{
   box-shadow: none;
 }
 
+.btn-delivery {
+  background: #ffff00;
+  box-shadow: 0 6px #ffb700;
+  color: #000;
+}
+
+.btn-delivery:hover {
+  background: #F18805;
+  box-shadow: 0 5px #816253;
+  color: #555;
+}
+
+.btn-delivery.active {
+  top: 2px;
+  box-shadow: 0 2px #957160;
+}
+
+.btn-delivery.active:hover {
+  box-shadow: 0 2px #816253;
+}
+
+.btn-delivery:active,
+.btn-delivery.active:active {
+  top: 5px;
+  box-shadow: none;
+}
+
 /* Price */
 
 .price {
@@ -717,6 +744,34 @@ header{
   box-shadow: none;
 }
 
+.btn-delivery-md {
+  background: #ffff00;
+  box-shadow: 0 6px #ffb700;
+  color: #000;
+}
+
+.btn-delivery-md:hover {
+  background: #F18805;
+  box-shadow: 0 5px #816253;
+  color: #555;
+}
+
+.btn-delivery-md.active {
+  top: 2px;
+  box-shadow: 0 2px #957160;
+}
+
+.btn-delivery-md.active:hover {
+  box-shadow: 0 2px #816253;
+}
+
+.btn-delivery-md:active,
+.btn-delivery-md.active:active {
+  top: 5px;
+  box-shadow: none;
+}
+
+
 /* Price */
 
 .priceMd {
@@ -798,7 +853,7 @@ header{
 }
 
 .btn-pepperonni-lg:active,
-.btn-pepperonni.active:active {
+.btn-pepperonni-lg.active:active {
   top: 5px;
   box-shadow: none;
 }
@@ -879,7 +934,7 @@ header{
 }
 
 .btn-glutten-free-lg:active,
-.btn-glutten.active-free-md:active {
+.btn-glutten-free-lg.active:active {
   top: 5px;
   box-shadow: none;
 }
@@ -937,6 +992,34 @@ header{
   top: 5px;
   box-shadow: none;
 }
+
+.btn-delivery-lg {
+  background: #ffff00;
+  box-shadow: 0 6px #ffb700;
+  color: #000;
+}
+
+.btn-delivery-lg:hover {
+  background: #F18805;
+  box-shadow: 0 5px #816253;
+  color: #555;
+}
+
+.btn-delivery-lg.active {
+  top: 2px;
+  box-shadow: 0 2px #957160;
+}
+
+.btn-delivery-lg.active:hover {
+  box-shadow: 0 2px #816253;
+}
+
+.btn-delivery-lg:active,
+.btn-delivery-lg.active:active {
+  top: 5px;
+  box-shadow: none;
+}
+
 
 /* Price */
 

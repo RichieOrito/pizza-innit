@@ -70,6 +70,13 @@ $(document).ready(function(){
     calcPrice();
   });
 
+  $(".btn-delivery").click(function(e){
+    $(this).toggleClass('active');
+    $('.dev').toggle();
+    $("li:contains('delivery')").toggle();
+    calcPrice();
+  });
+
   function calcPrice(){
     var totalPrice=600;
 
@@ -90,6 +97,9 @@ $(document).ready(function(){
     }
     if ($('.btn-stuffed').hasClass('active')) {
       totalPrice += 100;
+    }
+    if ($('.btn-delivery').hasClass('active')) {
+      totalPrice += 150;
     }
 
     $('#totalPrice').html(totalPrice);
@@ -139,6 +149,13 @@ $(document).ready(function(){
     calcPriceMd();
   });
 
+  $(".btn-delivery-md").click(function(e){
+    $(this).toggleClass('active');
+    $('.dev').toggle();
+    $("li:contains('delivery')").toggle();
+    calcPriceMd();
+  });
+
   function calcPriceMd(){
     var totalPriceMd=800;
 
@@ -159,6 +176,9 @@ $(document).ready(function(){
     }
     if ($('.btn-stuffed-md').hasClass('active')) {
       totalPriceMd += 100;
+    }
+    if ($('.btn-delivery-md').hasClass('active')) {
+      totalPriceMd += 150;
     }
 
     $('#totalPriceMd').html(totalPriceMd);
@@ -208,6 +228,13 @@ $(document).ready(function(){
     calcPriceLg();
   });
 
+  $(".btn-delivery-lg").click(function(e){
+    $(this).toggleClass('active');
+    $('.stuff').toggle();
+    $("li:contains('delivery')").toggle();
+    calcPriceLg();
+  });
+
   function calcPriceLg(){
     var totalPriceLg=1000;
 
@@ -229,6 +256,9 @@ $(document).ready(function(){
     if ($('.btn-stuffed-lg').hasClass('active')) {
       totalPriceLg += 100;
     }
+    if ($('.btn-delivery-lg').hasClass('active')) {
+      totalPriceLg += 150;
+    }
 
     $('#totalPriceLg').html(totalPriceLg);
   }
@@ -238,6 +268,12 @@ $(document).ready(function(){
 // delivery bussiness logic
 $('#location-form').submit(function(event){
   let location = $('#location').val();
-  alert("hey your order will be delivered at" + ' ' + location + ' ' + "thank for choosing us")
+  alert("hey your order will be delivered at" + ' ' + location + ' ' + "thanks for choosing us")
+  event.preventDefault();
+});
+
+$('#location-form').button(function(event){
+  let location = $('#location').val();
+  alert("hey your order will be delivered at" + ' ' + location + ' ' + "thanks for choosing us")
   event.preventDefault();
 });
