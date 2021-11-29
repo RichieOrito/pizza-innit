@@ -64,8 +64,3 @@ function calcPrice(){
 
   $('#totalPrice').html(totalPrice);
 }
-  
-  
-
-
-

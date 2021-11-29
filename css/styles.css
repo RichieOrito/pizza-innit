@@ -325,6 +325,7 @@ header{
   margin: 0 7px 11px 0;
   padding: 0 20px;
   border-radius: 3px;
+  width: 90%;
 
 }
 
@@ -334,9 +335,9 @@ header{
 }
 
 .btn-pepperonni {
-  background: #e8103b;
-  box-shadow: 0 6px #890923;
-  color: #fff;
+  background: #ffff00;
+  box-shadow: 0 6px #ffb700;
+  color: #000;
 }
 
 .btn-pepperonni:hover {
@@ -361,9 +362,9 @@ header{
 }
 
 .btn-mushrooms {
-  background: #b49989;
-  box-shadow: 0 6px #644d40;
-  color: #fff;
+  background: #ffff00;
+  box-shadow: 0 6px #ffb700;
+  color: #000;
 }
 
 .btn-mushrooms:hover {
@@ -388,9 +389,9 @@ header{
 }
 
 .btn-green-peppers {
-  background: #129306;
-  box-shadow: 0 6px #0a5203;
-  color: #fff;
+  background: #ffff00;
+  box-shadow: 0 6px #ffb700;
+  color: #000;
 }
 
 .btn-green-peppers:hover {
@@ -415,13 +416,13 @@ header{
 }
 
 .btn-glutten-free {
-  background: #fff4aa;
-  box-shadow: 0 6px #998500;
-  color: #555;
+  background: #ffff00;
+  box-shadow: 0 6px #ffb700;
+  color: #000;
 }
 
 .btn-glutten-free:hover {
-  background: #fff088;
+  background: #D95D39;
   box-shadow: 0 5px #776800;
   color: #555;
 }
@@ -442,13 +443,13 @@ header{
 }
 
 .btn-crispy {
-  background: #996515;
-  box-shadow: 0 6px #331f01;
-  color: #fff;
+  background: #ffff00;
+  box-shadow: 0 6px #ffb700;
+  color: #000;
 }
 
 .btn-crispy:hover {
-  background: #d3c3bb;
+  background: #7B9E89;
   box-shadow: 0 5px #816253;
   color: #555;
 }
@@ -469,13 +470,13 @@ header{
 }
 
 .btn-stuffed {
-  background: #F18805;
-  box-shadow: 0 6px #957160;
-  color: #fff;
+  background: #ffff00;
+  box-shadow: 0 6px #ffb700;
+  color: #000;
 }
 
 .btn-stuffed:hover {
-  background: #d3c3bb;
+  background: #F18805;
   box-shadow: 0 5px #816253;
   color: #555;
 }
