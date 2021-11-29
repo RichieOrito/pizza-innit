@@ -263,17 +263,19 @@ $(document).ready(function(){
     $('#totalPriceLg').html(totalPriceLg);
   }
 
-});  
 
-// delivery bussiness logic
-$('#location-form').submit(function(event){
-  let location = $('#location').val();
-  alert("hey your order will be delivered at" + ' ' + location + ' ' + "thanks for choosing us")
-  event.preventDefault();
-});
 
-$('#location-form').button(function(event){
-  let location = $('#location').val();
-  alert("hey your order will be delivered at" + ' ' + location + ' ' + "thanks for choosing us")
-  event.preventDefault();
+  // delivery bussiness logic
+  $('#location-form').submit(function(event){
+    let location = $('#location').val();
+    alert("hey your order will be delivered at" + ' ' + location + ' ' + "thanks for choosing us")
+    event.preventDefault();
+  });
+
+  $('#location-form').button(function(event){
+    let location = $('#location').val();
+    alert("hey your order will be delivered at" + ' ' + location + ' ' + "thanks for choosing us")
+    event.preventDefault();
+  });
+
 });
