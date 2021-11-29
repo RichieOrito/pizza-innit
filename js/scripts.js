@@ -27,12 +27,7 @@ $(document).ready(function(){
     $('#delivered-details').hide();
     $('#delivered-img').show();
   });
-
-
-
-
-
-
+// small
   $(".btn-pepperonni").click(function(e){
     $(this).toggleClass('active');
     $('.pep').toggle();
@@ -239,3 +234,10 @@ $(document).ready(function(){
   }
 
 });  
+
+// delivery bussiness logic
+$('#location-form').submit(function(event){
+  let location = $('#location').val();
+  alert("hey your order will be delivered at" + ' ' + location + ' ' + "thank for choosing us")
+  event.preventDefault();
+});
