@@ -48,7 +48,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 80px;
+  padding: 5px 80px;
   background-color: var(--main-color);
 }
 
@@ -76,9 +76,14 @@ header{
 
 .navbar a {
   font-size: 1.6rem;
-  padding: 8px 20px;
+  padding: 5px 20px;
   font-weight: 500;
   color: var(--txt-color2);
+}
+
+.navbar a:hover {
+  cursor: pointer;
+  color: var(--txt-color);
 }
 
 /* End of Header Section */
@@ -96,6 +101,7 @@ header{
 
 .home-img img{
   width: 100%;
+  margin-top: 100px;
 }
 
 .home-text h1{
@@ -109,6 +115,10 @@ header{
 
 .home-text span{
   color: var(--main-color);
+}
+
+.home-text{
+  margin-top: 100px;
 }
 
 .btn {
@@ -1057,5 +1067,11 @@ header{
   display: block;
   margin-top: 1rem;
 }
+
+@media (max-width:455px){
+  .home-text{
+    margin-top: 200px;
+
+  }
 
 
