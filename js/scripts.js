@@ -272,10 +272,4 @@ $(document).ready(function(){
     event.preventDefault();
   });
 
-  $('#location-form').button(function(event){
-    let location = $('#location').val();
-    alert("hey your order will be delivered at" + ' ' + location + ' ' + "thanks for choosing us")
-    event.preventDefault();
-  });
-
 });
