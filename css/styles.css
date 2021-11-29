@@ -532,3 +532,446 @@ header{
   display: block;
   margin-top: 1rem;
 }
+
+/* Medium */
+
+.toppingsMd .btn{
+  /* float: left; */
+  position: relative;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  line-height: 45px;
+  margin: 0 7px 11px 0;
+  padding: 0 20px;
+  border-radius: 3px;
+  width: 90%;
+
+}
+
+.toppingsMd {
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.btn-pepperonni-md {
+  background: #ffff00;
+  box-shadow: 0 6px #ffb700;
+  color: #000;
+}
+
+.btn-pepperonni-md:hover {
+  background: #c80e33;
+  box-shadow: 0 5px #69071b;
+  color: #fff;
+}
+
+.btn-pepperonni-md.active {
+  top: 2px;
+  box-shadow: 0 2px #890923;
+}
+
+.btn-pepperonni-md.active:hover {
+  box-shadow: 0 2px #69071b;
+}
+
+.btn-pepperonni-md:active,
+.btn-pepperonni.active:active {
+  top: 5px;
+  box-shadow: none;
+}
+
+.btn-mushrooms-md {
+  background: #ffff00;
+  box-shadow: 0 6px #ffb700;
+  color: #000;
+}
+
+.btn-mushrooms-md:hover {
+  background: #a78774;
+  box-shadow: 0 5px #503d33;
+  color: #fff;
+}
+
+.btn-mushrooms-md.active {
+  top: 2px;
+  box-shadow: 0 2px #644d40;
+}
+
+.btn-mushrooms-md.active:hover {
+  box-shadow: 0 2px #503d33;
+}
+
+.btn-mushrooms-md:active,
+.btn-mushrooms-md.active:active {
+  top: 5px;
+  box-shadow: none;
+}
+
+.btn-green-peppers-md {
+  background: #ffff00;
+  box-shadow: 0 6px #ffb700;
+  color: #000;
+}
+
+.btn-green-peppers-md:hover {
+  background: #0e7205;
+  box-shadow: 0 5px #063102;
+  color: #fff;
+}
+
+.btn-green-peppers-md.active {
+  top: 2px;
+  box-shadow: 0 2px #0a5203;
+}
+
+.btn-green-peppers-md.active:hover {
+  box-shadow: 0 2px #063102;
+}
+
+.btn-green-peppers-md:active,
+.btn-green-peppers-md.active:active {
+  top: 5px;
+  box-shadow: none;
+}
+
+.btn-glutten-free-md {
+  background: #ffff00;
+  box-shadow: 0 6px #ffb700;
+  color: #000;
+}
+
+.btn-glutten-free-md:hover {
+  background: #D95D39;
+  box-shadow: 0 5px #776800;
+  color: #555;
+}
+
+.btn-glutten-free-md.active {
+  top: 2px;
+  box-shadow: 0 2px #998500;
+}
+
+.btn-glutten-free-md.active:hover {
+  box-shadow: 0 2px #776800;
+}
+
+.btn-glutten-free-md:active,
+.btn-glutten.active-free-md:active {
+  top: 5px;
+  box-shadow: none;
+}
+
+.btn-crispy-md {
+  background: #ffff00;
+  box-shadow: 0 6px #ffb700;
+  color: #000;
+}
+
+.btn-crispy-md:hover {
+  background: #7B9E89;
+  box-shadow: 0 5px #816253;
+  color: #555;
+}
+
+.btn-crispy-md.active {
+  top: 2px;
+  box-shadow: 0 2px #957160;
+}
+
+.btn-crispy-md.active:hover {
+  box-shadow: 0 2px #816253;
+}
+
+.btn-crispy-md:active,
+.btn-crispy-md.active:active {
+  top: 5px;
+  box-shadow: none;
+}
+
+.btn-stuffed-md {
+  background: #ffff00;
+  box-shadow: 0 6px #ffb700;
+  color: #000;
+}
+
+.btn-stuffed-md:hover {
+  background: #F18805;
+  box-shadow: 0 5px #816253;
+  color: #555;
+}
+
+.btn-stuffed-md.active {
+  top: 2px;
+  box-shadow: 0 2px #957160;
+}
+
+.btn-stuffed-md.active:hover {
+  box-shadow: 0 2px #816253;
+}
+
+.btn-stuffed-md:active,
+.btn-stuffed-md.active:active {
+  top: 5px;
+  box-shadow: none;
+}
+
+/* Price */
+
+.priceMd {
+  right: 0;
+}
+
+.priceMd h2 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.priceMd h2:after {
+  content: ':';
+}
+
+.priceMd h1{
+  color: red;
+}
+
+.priceMd li{
+  margin: 5px 20px 0;
+  color:#6f6f6f;
+  font-size: 1.3rem;
+}
+
+.priceMd li:before {
+  content: '+ ';
+  color: #e2311a;
+}
+
+.priceMd strong{
+  font-size: 1.5rem;
+  display: block;
+  margin-top: 1rem;
+}
+
+
+/* large */
+
+.toppingsLg .btn{
+  /* float: left; */
+  position: relative;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  line-height: 45px;
+  margin: 0 7px 11px 0;
+  padding: 0 20px;
+  border-radius: 3px;
+  width: 90%;
+
+}
+
+.toppingsLg {
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.btn-pepperonni-lg {
+  background: #ffff00;
+  box-shadow: 0 6px #ffb700;
+  color: #000;
+}
+
+.btn-pepperonni-lg:hover {
+  background: #c80e33;
+  box-shadow: 0 5px #69071b;
+  color: #fff;
+}
+
+.btn-pepperonni-lg.active {
+  top: 2px;
+  box-shadow: 0 2px #890923;
+}
+
+.btn-pepperonni-lg.active:hover {
+  box-shadow: 0 2px #69071b;
+}
+
+.btn-pepperonni-lg:active,
+.btn-pepperonni.active:active {
+  top: 5px;
+  box-shadow: none;
+}
+
+.btn-mushrooms-lg {
+  background: #ffff00;
+  box-shadow: 0 6px #ffb700;
+  color: #000;
+}
+
+.btn-mushrooms-lg:hover {
+  background: #a78774;
+  box-shadow: 0 5px #503d33;
+  color: #fff;
+}
+
+.btn-mushrooms-lg.active {
+  top: 2px;
+  box-shadow: 0 2px #644d40;
+}
+
+.btn-mushrooms-lg.active:hover {
+  box-shadow: 0 2px #503d33;
+}
+
+.btn-mushrooms-lg:active,
+.btn-mushrooms-lg.active:active {
+  top: 5px;
+  box-shadow: none;
+}
+
+.btn-green-peppers-lg {
+  background: #ffff00;
+  box-shadow: 0 6px #ffb700;
+  color: #000;
+}
+
+.btn-green-peppers-lg:hover {
+  background: #0e7205;
+  box-shadow: 0 5px #063102;
+  color: #fff;
+}
+
+.btn-green-peppers-lg.active {
+  top: 2px;
+  box-shadow: 0 2px #0a5203;
+}
+
+.btn-green-peppers-lg.active:hover {
+  box-shadow: 0 2px #063102;
+}
+
+.btn-green-peppers-lg:active,
+.btn-green-peppers-lg.active:active {
+  top: 5px;
+  box-shadow: none;
+}
+
+.btn-glutten-free-lg {
+  background: #ffff00;
+  box-shadow: 0 6px #ffb700;
+  color: #000;
+}
+
+.btn-glutten-free-lg:hover {
+  background: #D95D39;
+  box-shadow: 0 5px #776800;
+  color: #555;
+}
+
+.btn-glutten-free-lg.active {
+  top: 2px;
+  box-shadow: 0 2px #998500;
+}
+
+.btn-glutten-free-lg.active:hover {
+  box-shadow: 0 2px #776800;
+}
+
+.btn-glutten-free-lg:active,
+.btn-glutten.active-free-md:active {
+  top: 5px;
+  box-shadow: none;
+}
+
+.btn-crispy-lg {
+  background: #ffff00;
+  box-shadow: 0 6px #ffb700;
+  color: #000;
+}
+
+.btn-crispy-lg:hover {
+  background: #7B9E89;
+  box-shadow: 0 5px #816253;
+  color: #555;
+}
+
+.btn-crispy-lg.active {
+  top: 2px;
+  box-shadow: 0 2px #957160;
+}
+
+.btn-crispy-lg.active:hover {
+  box-shadow: 0 2px #816253;
+}
+
+.btn-crispy-lg:active,
+.btn-crispy-lg.active:active {
+  top: 5px;
+  box-shadow: none;
+}
+
+.btn-stuffed-lg {
+  background: #ffff00;
+  box-shadow: 0 6px #ffb700;
+  color: #000;
+}
+
+.btn-stuffed-lg:hover {
+  background: #F18805;
+  box-shadow: 0 5px #816253;
+  color: #555;
+}
+
+.btn-stuffed-lg.active {
+  top: 2px;
+  box-shadow: 0 2px #957160;
+}
+
+.btn-stuffed-lg.active:hover {
+  box-shadow: 0 2px #816253;
+}
+
+.btn-stuffed-lg:active,
+.btn-stuffed-lg.active:active {
+  top: 5px;
+  box-shadow: none;
+}
+
+/* Price */
+
+.priceLg {
+  right: 0;
+}
+
+.priceLg h2 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.priceLg h2:after {
+  content: ':';
+}
+
+.priceLg h1{
+  color: red;
+}
+
+.priceLg li{
+  margin: 5px 20px 0;
+  color:#6f6f6f;
+  font-size: 1.3rem;
+}
+
+.priceLg li:before {
+  content: '+ ';
+  color: #e2311a;
+}
+
+.priceLg strong{
+  font-size: 1.5rem;
+  display: block;
+  margin-top: 1rem;
+}
+
+

@@ -30,7 +30,7 @@
   <div class="home-text">
     <h1>Tastier<span> ,,,, </span>Try Me Today</h1>
     <p><span>"</span>This Is A Pizza Like No Other!<span>"</span></p>
-    <a href="#" class="btn">View Menu</a>
+    <a href="#menu" class="btn">View Menu</a>
   </div>
     <div class="home-img">
       <img src="images/pizza-ge1d6c8b14_1920-removebg-preview.png" alt="">
@@ -49,7 +49,7 @@
       and any manner of toppings.Tastes like heaven and is sometimes
       stated to be better than a relationship.
     </p>
-      <a href="#" class="btn">More About Us</a>
+      <a href="#services" class="btn">More About Us</a>
   </div>
 </section>
 <!-- Menu -->
@@ -146,7 +146,77 @@
       </div>
       <h2>Medium</h2>
       <span>Ksh.800</span>
-      <i class="fas fa-shopping-cart"></i>
+       <!-- Button trigger modal -->
+       <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#mediumModal">
+        <i class="fas fa-shopping-cart"></i>
+        </button>
+  
+        <!-- Modal -->
+        <div class="modal fade" id="mediumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Toppings And Crusts</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <!-- Toppings and Crusts -->
+                <div class="toppingsMd">
+                  <ul>
+                    <h2>Toppings</h2>
+                    <li>
+                      <button class="btn btn-pepperonni-md active">Pepperoni</button>
+                      <span>Ksh.200</span>
+                    </li>
+                    <li>
+                      <button class="btn btn-mushrooms-md active">Mushrooms</button>
+                      <span>Ksh.200</span>
+                    </li>
+                    <li>
+                      <button class="btn btn-green-peppers-md active">Green peppers</button>
+                      <span>Ksh.200</span>
+                    </li>
+                    <h2>Crusts</h2>
+                    <li>
+                      <button class="btn btn-glutten-free-md active">Glutten-free</button>
+                      <span>ksh.100</span>
+                    </li>
+                    <li>
+                      <button class="btn btn-crispy-md active">Crispy</button>
+                      <span>ksh.100</span>
+                    </li>
+                    <li>
+                      <button class="btn btn-stuffed-md active">Stuffed</button>
+                      <span>ksh.100</span>
+                    </li>
+                  </ul>
+                </div>
+                <!-- End Controls -->
+  
+                <!-- Price -->
+                <div class="priceMd">
+                  <h2>Your pizza's price</h2>
+  
+                  <h1>$800 Medium pizza</h1>
+                  <ul>
+                    <li>$200 pepperonni</li>
+                    <li>$200 mushrooms</li>
+                    <li>$200 green peppers</li>
+                    <li>$100 glutten free</li>
+                    <li>$100 crispy</li>
+                    <li>$100 stuffed</li>
+                  </ul>
+                  <strong>$<span id="totalPriceMd">1700<span></strong>
+                </div>
+                <!-- End of Price -->
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 
     <!-- Pizza lg -->
@@ -156,7 +226,77 @@
       </div>
       <h2>Large</h2>
       <span>Ksh.1000</span>
+     <!-- Button trigger modal -->
+     <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#largeModal">
       <i class="fas fa-shopping-cart"></i>
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="largeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Toppings And Crusts</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!-- Toppings and Crusts -->
+              <div class="toppingsLg">
+                <ul>
+                  <h2>Toppings</h2>
+                  <li>
+                    <button class="btn btn-pepperonni-lg active">Pepperoni</button>
+                    <span>Ksh.200</span>
+                  </li>
+                  <li>
+                    <button class="btn btn-mushrooms-lg active">Mushrooms</button>
+                    <span>Ksh.200</span>
+                  </li>
+                  <li>
+                    <button class="btn btn-green-peppers-lg active">Green peppers</button>
+                    <span>Ksh.200</span>
+                  </li>
+                  <h2>Crusts</h2>
+                  <li>
+                    <button class="btn btn-glutten-free-lg active">Glutten-free</button>
+                    <span>ksh.100</span>
+                  </li>
+                  <li>
+                    <button class="btn btn-crispy-lg active">Crispy</button>
+                    <span>ksh.100</span>
+                  </li>
+                  <li>
+                    <button class="btn btn-stuffed-lg active">Stuffed</button>
+                    <span>ksh.100</span>
+                  </li>
+                </ul>
+              </div>
+              <!-- End Controls -->
+
+              <!-- Price -->
+              <div class="priceLg">
+                <h2>Your pizza's price</h2>
+
+                <h1>$1000 Medium pizza</h1>
+                <ul>
+                  <li>$200 pepperonni</li>
+                  <li>$200 mushrooms</li>
+                  <li>$200 green peppers</li>
+                  <li>$100 glutten free</li>
+                  <li>$100 crispy</li>
+                  <li>$100 stuffed</li>
+                </ul>
+                <strong>$<span id="totalPriceLg">1900<span></strong>
+              </div>
+              <!-- End of Price -->
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
