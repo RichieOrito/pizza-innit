@@ -1,6 +1,4 @@
 # Pizza innit
-## Design
-![design](images/delani.jpg)
 
 ## A Description of Delani Studio.
 
