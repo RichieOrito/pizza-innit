@@ -232,6 +232,7 @@ header{
 
 .sv-box{
   text-align: center;
+  cursor: pointer;
 }
 
 .sv-box img{
