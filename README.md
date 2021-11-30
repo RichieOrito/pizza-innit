@@ -101,6 +101,6 @@ Github - [RICHIE ORITO](https://github.com/RichieOrito)
 
 ## Live Link
 
-LiveLink- [Gh-pages](richieorito.github.io/pizza-innit/)
+LiveLink- [Gh-pages](https://richieorito.github.io/pizza-innit/)
 
 [Go Back to the top](#pizza-innit)
