@@ -268,7 +268,7 @@ $(document).ready(function(){
   // delivery bussiness logic
   $('#location-form').submit(function(event){
     let location = $('#location').val();
-    alert("hey your order will be delivered at" + ' ' + location + ' ' + "thanks for choosing us")
+    alert(`hey your order will be delivered at ${location} at an extra fee of 150 thanks for choosing us`)
     event.preventDefault();
   });
 
