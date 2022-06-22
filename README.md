@@ -1,7 +1,5 @@
 # Pizza innit
 
-## A Description of Delani Studio.
-
 ## Table of Content
 
 + [Description](#description)
